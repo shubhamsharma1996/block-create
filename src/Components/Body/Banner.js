@@ -6,13 +6,12 @@ function Banner() {
         <>
             <div className="Banner">
                 <div className="banner__container">
-                    <h1>BLOCKCHAIN</h1>
+                    <h1>BLOCKREATE</h1>
                     <img src="/Images/block.png" className="block__img" loading="lazy" alt="block" />
                     <div className="banner__second">
                         <h2>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore .
+                            Meet Industry-Specialist in Blockchain &amp; Cryptocurrency development
+                            to curate, innovate and strategies ICO development and Launch.
                         </h2>
                         <a className="banner__cta">
                             <p>Get Started</p>

@@ -7,10 +7,7 @@ function GetIntouch() {
                 <div className="img__section"></div>
                 <div className="getIntouch__text">
                     <h2>Get in Touch</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Need Custom Plan & Discussion with Core-Team, Book a slot with us. From Cryptocurrency & Blockchain Development, Listing to Market Making we cover all. Have the Best available to mind in Blockchain-industry &mp; Resources available in One-Go.</p>
                     <a href="">
                         <span>Hire Us</span>
                         <img src="/Images/right-arrow.svg" alt="right arrow" />
