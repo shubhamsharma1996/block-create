@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.497" height="16.739">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#111;stroke-linecap:round;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="Group_404" data-name="Group 404" transform="translate(1.5 2.12)">
+        <path id="Line_4" data-name="Line 4" class="cls-1" transform="translate(0 6.122)" d="M0 0h18.878"/>
+        <path id="Line_5" data-name="Line 5" class="cls-1" transform="translate(12.245)" d="m0 0 6.633 6.122"/>
+        <path id="Line_6" data-name="Line 6" class="cls-1" transform="translate(12.245 6.378)" d="M6.633 0 0 6.122"/>
+    </g>
+</svg>
