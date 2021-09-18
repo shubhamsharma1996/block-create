@@ -7,10 +7,7 @@ function Pricing() {
             <div className="pricing__container">
                 <div className="pricing__detail">
                     <h2>Pricings</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Compare different available options from Development to Listing and Market Making. Select Basic Plan to Jumpstart a Project or Choose Enterprise to Develop from Scratch and Have your Own Indentity in Cryptocurrency Community.</p>
                     <a href="">
                         <span>Hire Us</span>
                         <img src="/Images/right-arrow.svg" alt="right arrow" />

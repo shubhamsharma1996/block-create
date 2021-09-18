@@ -10,14 +10,9 @@ function MainBody() {
                 <img src="/Images/about.png" alt="about" loading="lazy" />
                 <div className="about__textsection">
                     <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum.</p>
+                    <p>Team of Crypto & Blockchain Developers, Marketers, & Market Makers with Experience of 4 Years. From Developing fresh blockchain to Market Making and Listing Services Experts in India. 
+                        Best-in-Industry Market Making Strategies and Listing on WazirX, BuyUcoin, ZebPay, Coindcx, CoinSwitch and More. Create ERC20, TRC, BSC & Eneterprise Solutions for Development of Blockchain & Cryptocurrency. 
+                    </p>
                     <a href="">
                         <span>Know More</span>
                         <img src="/Images/right-arrow.svg" alt="right arrow" />
