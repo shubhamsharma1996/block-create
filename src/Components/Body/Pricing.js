@@ -15,14 +15,14 @@ function Pricing() {
                 </div>
                 <div className="pricing__cards">
                     <div className="pricing__card">
-                        <h3>Beginers</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <h3>Basic</h3>
+                        <p>Jumpstart Your Dream to Create a Cryptocurrency and Enjoy the enterance to FinTech Industry with No-Hassle. From Cryptocurrency Developement to Market Making and Promtoion on Makor Channels.</p>
                         <button className="quote__price">GET A QUOTE</button>
                         <button className="custom__plan">CUSTOMIZE THIS PLAN</button>
                     </div>
                     <div className="pricing__card">
-                        <h3>Beginers</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <h3>Advance</h3>
+                        <p>Enter the FinTech Market with a Boom!<br></br>Develop your own blockchain from scratch and Get Listed on Top Cryptocurrency Exchange with help of our Experts.</p>
                         <button className="quote__price">GET A QUOTE</button>
                         <button className="custom__plan">CUSTOMIZE THIS PLAN</button>
                     </div>
