@@ -1,4 +1,5 @@
 import React from 'react'
+import SliderType from '../Slider/Sliders'
 import GetIntouch from './GetIntouch'
 import './MainBody.css'
 import Pricing from './Pricing'
@@ -33,6 +34,7 @@ function MainBody() {
                         <img src="/Images/fifth.svg" alt="fifth" loading="lazy" />
                         <img src="/Images/sixth.svg" alt="sixth" loading="lazy" />
                     </div>
+                    <SliderType/>
                 </div>
             </div>
             <div className="project__empty"></div>
