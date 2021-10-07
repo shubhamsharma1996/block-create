@@ -18,7 +18,7 @@
 .pricing__cards {
   display: flex;
   align-items: center;
-  width: 67%;
+  justify-content: center;
 }
 
 .pricing__detail h2 {
@@ -64,7 +64,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 418px;
+  width: 30%;
 }
 
 .pricing__card h3 {
