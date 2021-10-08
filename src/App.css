@@ -1,0 +1,82 @@
+@media (max-width: 570px) {
+    .about__section {
+        width: 80%;
+        margin: auto;
+        padding: 132px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pricing__container {
+        width: 80%;
+        margin: 185px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact__container {
+        width: 80%;
+        margin: auto;
+        padding: 106px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pricing__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__container {
+        width: 80%;
+        margin: auto;
+        padding: 132px 0 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+@media (min-width: 766px) and (max-width: 870px){
+
+}
+@media (min-width: 880px) and (max-width: 920px){
+
+}
+@media (min-width: 1023px) and (max-width: 1150px){
+    .block__img {
+        object-fit: contain;
+        position: absolute;
+        left: -42% !important;
+        top: -8rem;
+    }
+
+    .banner__container h1 {
+        margin: 0;
+        font-size: 8rem !important;
+        font-weight: 900;
+        font-stretch: normal;
+    }
+
+    .about__section {
+        width: 90% !important;
+    }
+
+    .project__images {
+        width: 80% !important;
+    }
+    
+}
+
+
+
