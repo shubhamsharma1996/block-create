@@ -1,18 +1,20 @@
 import React, { useContext, useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Header.css'
 function Header() {
     const [active, setActive] = useState(false)
     return (
         <div className="header">
             <div className="header__left">
-                <h1>Logo Here</h1>
+                <h1><Link to="/">Logo Here</Link></h1>
             </div>
             <div className="header__right">
-                <ul onClick={e => setActive(!active)} className={active ? 'active' : ''}>
+                <h2><Link to="/contact">Contact Us</Link></h2>
+                {/* <ul onClick={e => setActive(!active)} className={active ? 'active' : ''}>
                     <li></li>
                     <li></li>
                     <li></li>
-                </ul>
+                </ul> */}
             </div>
         </div>
     )

@@ -4,6 +4,7 @@ import Banner from '../Body/Banner'
 import MainBody from '../Body/MainBody'
 import GetIntouch from '../Body/GetIntouch'
 import Plan from '../Plan/Plan'
+import Footer from '../Footer/Footer'
 
 function MainComp() {
     return (
@@ -12,7 +13,8 @@ function MainComp() {
                 <Banner />
                 <MainBody />
                 <GetIntouch />
-                <Plan/>
+                <Footer/>
+                {/* <Plan/> */}
         </>
     )
 }

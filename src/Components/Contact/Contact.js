@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './Contact.css'
 import Header from '../Header/Header'
 import { useEffect } from 'react/cjs/react.development'
+import Footer from '../Footer/Footer'
 const Contact = () => {
   const [state, setstate] = useState({
       name:'',
@@ -49,9 +50,10 @@ const Contact = () => {
             <input type="tel" name="contact" value={contact} onChange={handleData} placeholder="Contat No." class="popping-border"/>
             <input type="text" name="company" value={company} onChange={handleData} placeholder="Company" class="popping-border"/>
             <input type="textarea" name="message" value={message} onChange={handleData} placeholder="Message" class="popping-border-area"/>
-            <div className="submit_btn" onClick={submitData}>Submit</div>
+            <button className="submit_btn" onClick={submitData}>Submit</button>
             </div>
         </div>
+        <Footer/>
     </>
     )
 }
