@@ -1,0 +1,64 @@
+.contact___section {
+  background-color: #111;
+}
+
+.contact__container {
+  width: 80%;
+  margin: auto;
+  padding: 106px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.getIntouch__text {
+  width: 34%;
+  margin-left: auto;
+  text-align: right;
+}
+
+.getIntouch__text h2 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 0;
+  border-bottom: 2px solid #007eff;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+  width: 41%;
+  text-align: right;
+  margin-left: auto;
+  color: #fff;
+}
+
+.getIntouch__text p {
+  margin: 2rem 0;
+  color: #ffff;
+}
+
+.getIntouch__text a {
+  text-decoration: none;
+  background: #007eff;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+  padding: 19px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  text-align: right;
+  margin-left: auto;
+}
+
+.getIntouch__text a img {
+  margin-left: 1rem;
+}
+
+.img__section {
+  width: 31%;
+  border-radius: 2.5px;
+}
+
+.img__section img {
+  width: 494px;
+}

@@ -1,0 +1,77 @@
+.plans__heading {
+  font-size: 50px;
+  width: 18%;
+  margin: 6rem auto;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #007eff;
+  text-align: center;
+}
+
+.plan__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pricing__card {
+  padding: 57px 15px 15px;
+  border-radius: 4px;
+  border: solid 0.5px #707070;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 4rem 5rem;
+}
+
+.pricing__card h3 {
+  color: #007eff;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.pricing__card p {
+  font-size: 16px;
+  color: #111;
+  font-weight: normal;
+  font-stretch: normal;
+  width: 86%;
+  margin: 1rem auto 1rem;
+  height: 162px;
+  display: flex;
+  align-items: center;
+}
+
+.quote__price {
+  border-radius: 2.5px;
+  background-color: #007eff;
+  border: none;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.quote__price:hover {
+  cursor: pointer;
+}
+
+.quote__price button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.custom__plan {
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 2.5px;
+  border: 1px solid #007eff;
+  color: #007eff;
+  padding: 16px;
+  cursor: pointer;
+  background-color: transparent;
+}
