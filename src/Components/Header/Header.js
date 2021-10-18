@@ -6,7 +6,9 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <h1><Link to="/">Logo Here</Link></h1>
+                <h1><Link to="/">
+                    <img className="header__logo" src="/Images/logo-icon-black.svg" alt="balck logo"/>
+                    </Link></h1>
             </div>
             <div className="header__right">
                 <h2><Link to="/contact">Contact Us</Link></h2>

@@ -44,8 +44,6 @@
 }
 
 .quote__price {
-  font-weight: 900;
-  font-size: 15px;
   border-radius: 2.5px;
   background-color: #007eff;
   border: none;
@@ -55,6 +53,18 @@
   cursor: pointer;
 }
 
+.quote__price:hover {
+  cursor: pointer;
+}
+
+.quote__price button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
 .custom__plan {
   font-weight: 900;
   font-size: 15px;

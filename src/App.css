@@ -1,4 +1,24 @@
 @media (max-width: 570px) {
+  .footer__logo {
+    width: 85px !important;
+  }
+  .header__logo {
+    width: 142px !important;
+  }
+
+  .img__type {
+    width: 48px !important;
+    border-radius: 88px;
+    margin-right: 1rem !important;
+    margin-top: 0 !important;
+  }
+  .img__section img {
+    width: 165px !important;
+  }
+  .img__section {
+    width: 100% !important;
+    text-align: center;
+  }
   .submit_btn {
     margin-top: 1rem !important;
   }
@@ -54,7 +74,6 @@
     font-size: 1rem !important;
   }
   .img__section {
-    width: 100% !important;
     margin-top: 3rem !important;
   }
   .getIntouch__text a {
@@ -230,6 +249,13 @@
   }
 }
 @media (min-width: 766px) and (max-width: 870px) {
+  .img__type {
+    width: 100px !important;
+  }
+  .img__section img {
+    width: 200px !important;
+  }
+
   .getIntouch__text p {
     font-size: 15px !important;
   }
@@ -378,6 +404,10 @@
   }
 }
 @media (min-width: 880px) and (max-width: 920px) {
+  .img__section img {
+    width: 220px !important;
+  }
+
   .block__img {
     object-fit: contain;
     position: absolute;
@@ -423,6 +453,9 @@
   }
 }
 @media (min-width: 1023px) and (max-width: 1150px) {
+  .img__section img {
+    width: 289px !important;
+  }
   .block__img {
     object-fit: contain;
     position: absolute;
@@ -466,4 +499,46 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1280px) {
+}
+@media (min-width: 1441px) and (max-width: 1500px) {
+  .banner__container h1 {
+    margin: 0;
+    font-size: 11rem !important;
+  }
+  .block__img {
+    left: -14% !important;
+    top: -11rem !important;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1699px) {
+  .banner__container h1 {
+    font-size: 12rem !important;
+  }
+  .block__img {
+    left: -8% !important;
+    top: -9rem !important;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2150px) {
+  .banner__container h1 {
+    margin: 0;
+    font-size: 15rem !important;
+  }
+
+  .block__img {
+    left: 1% !important;
+  }
+}
+
+@media (min-width: 2260px) and (max-width: 2400px) {
+  .banner__container h1 {
+    margin: 0;
+    font-size: 17rem !important;
+  }
+
+  .block__img {
+    left: 5% !important;
+  }
 }

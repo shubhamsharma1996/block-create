@@ -69,3 +69,10 @@
   display: flex;
   gap: 21px;
 }
+
+.img__type {
+  width: 177px;
+  border-radius: 88px;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
