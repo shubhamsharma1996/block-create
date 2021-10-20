@@ -15,16 +15,20 @@ function SliderType() {
           text='Had a great experience with Blockcreate team from the beginning.
            Understood the project thoroughly and did a commendable job with the project. 
            Very happy to have reached out to them and make my project a huge success.'
-           name="Katheryne Gretchen" designation='Software Developer' img="/Images/2.jpg"/> 
+           name="Katheryne Gretchen" designation='Software Developer' img="/Images/2.jpg"
+           link="https://bscscan.com/token/0xa74af19fc5f5996f34e8e2cb224a7a5c6c8d65b3"/> 
            <Testimonial 
           text=' Had a swift experience with the team. My ERC-20 token was compatible with industry standards, with complete auditing done to ensure there are no backdoors in the contracts. The team even got it listed on coingecko.'
-           name="Kaleb Bria" designation='BlockChain Developer' img="/Images/3.jpg"/> 
+           name="Kaleb Bria" designation='BlockChain Developer' img="/Images/3.jpg"
+           link="https://bscscan.com/token/0xd307E64C0C0e70EaA463926e4C2dD7370dE11507"/> 
            <Testimonial 
           text='The team looked richly experienced in blockchain technology. They provided consultancy and had some great ideas for what all could be done with my project. Implemented some brilliant ideas of marketing and promoted my token in various social media channels and  communities.   '
-           name="Devan Callie" designation='Backend Developer' img="/Images/4.jpg"/> 
+           name="Devan Callie" designation='Backend Developer' img="/Images/4.jpg"
+           link="https://etherscan.io/token/0x270371c58d9d775ed73971dd414656107384f235"/> 
            <Testimonial 
           text='Great working with Dmitrii on this project. Fast turnaround time and excellent communication throughout including support with any technical queries. Would highly recommend'
-           name="Kolleen Greta" designation='Frontend Developer' img="/Images/1.jpg"/> 
+           name="Kolleen Greta" designation='Frontend Developer' img="/Images/1.jpg"
+           link="https://etherscan.io/token/0xe09216f1d343dd39d6aa732a08036fee48555af0"/> 
          
         </Slider>
       </div>
@@ -34,12 +38,13 @@ function SliderType() {
 export default SliderType
 
 
-const Testimonial = ({text,name,designation,img}) =>{
+const Testimonial = ({text,name,designation,img,link}) =>{
   return(
 <div className="testimonial">
           <div className="testimonial__box">
             <h1>Best Service Ever</h1>
             <p>{text}</p>
+            <a className="read__more" href={link}>Read More</a>
           </div>
             <span class="right-angle"></span>
 

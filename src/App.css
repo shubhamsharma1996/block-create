@@ -1,9 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
 @media (max-width: 570px) {
+  .footer__links ul li a img {
+    width: 13px !important;
+    margin-right: 7px !important;
+  }
+  .footer__links ul li {
+    padding: 3px 0 !important;
+    margin: 8px !important;
+  }
   .footer__logo {
-    width: 85px !important;
+    width: 64px !important;
   }
   .header__logo {
-    width: 142px !important;
+    width: 111px !important;
   }
 
   .img__type {
@@ -249,6 +260,12 @@
   }
 }
 @media (min-width: 766px) and (max-width: 870px) {
+  .footer__logo {
+    width: 220px !important;
+  }
+  .footer__first {
+    width: 100% !important;
+  }
   .img__type {
     width: 100px !important;
   }
@@ -404,6 +421,12 @@
   }
 }
 @media (min-width: 880px) and (max-width: 920px) {
+  .footer__logo {
+    width: 220px !important;
+  }
+  .footer__first {
+    width: 100% !important;
+  }
   .img__section img {
     width: 220px !important;
   }

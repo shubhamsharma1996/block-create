@@ -11,6 +11,7 @@ const Contact = () => {
       company:'',
       message:''
   })
+  const [successMessage,setSuccessMessage] = useState('')
 
   const {name,email,contact,company,message} = state
 
@@ -32,6 +33,10 @@ const Contact = () => {
             })
             await response.json()
             setstate({...state,name:'',email:'',contact:'',company:'',message:''})
+            setSuccessMessage('Thank You!! We have recieved your query, Look for our email in this next 24 Business Hours')
+            setTimeout(()=>{
+                setSuccessMessage('')
+            },3000)
       }catch (err){
         console.log(err)
       }
@@ -50,7 +55,10 @@ const Contact = () => {
             <input type="tel" name="contact" value={contact} onChange={handleData} placeholder="Contat No." class="popping-border"/>
             <input type="text" name="company" value={company} onChange={handleData} placeholder="Company" class="popping-border"/>
             <input type="textarea" name="message" value={message} onChange={handleData} placeholder="Message" class="popping-border-area"/>
-            <button className="submit_btn" onClick={submitData}>Submit</button>
+            <button className="submit_btn" onClick={submitData}><span class="mdi mdi-spin"/>Submit</button>
+            {successMessage &&
+                <h3 className="success__message">{successMessage}</h3>
+            }
             </div>
         </div>
         <Footer/>

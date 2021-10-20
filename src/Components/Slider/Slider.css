@@ -25,6 +25,7 @@
   font-size: 900;
   font-size: 16px;
   font-weight: 900;
+  margin-bottom: 1rem;
 }
 
 .right-angle {
@@ -75,4 +76,17 @@
   border-radius: 88px;
   margin-right: 2rem;
   margin-top: 1rem;
+}
+
+.read__more {
+  text-decoration: none;
+  background: #007eff;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+  padding: 10px 19px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
 }

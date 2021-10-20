@@ -13,7 +13,7 @@ function Banner() {
                             Meet Industry-Specialist in Blockchain &amp; Cryptocurrency development
                             to curate, innovate and strategies ICO development and Launch.
                         </h2>
-                        <a className="banner__cta">
+                        <a className="banner__cta" href="#price">
                             <p>Get Started</p>
                             <img src="/Images/right-arrow.svg" alt="right arrow" />
                         </a>

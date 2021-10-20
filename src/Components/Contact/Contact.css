@@ -60,3 +60,12 @@ input:focus {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.success__message {
+  background: #58e358;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 6px;
+}
