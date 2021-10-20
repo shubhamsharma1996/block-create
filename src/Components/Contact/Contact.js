@@ -32,6 +32,7 @@ const Contact = () => {
                 body: JSON.stringify([[name,email,contact,company,message,new Date().toLocaleString()]])
             })
             await response.json()
+            window.open( "https://blockreate.com/Docs/Blockreate%20Pitch%20Deck.pdf", "_blank");
             setstate({...state,name:'',email:'',contact:'',company:'',message:''})
             setSuccessMessage('Thank You!! We have recieved your query, Look for our email in this next 24 Business Hours')
             setTimeout(()=>{
