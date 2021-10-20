@@ -69,3 +69,12 @@ input:focus {
   color: #fff;
   border-radius: 6px;
 }
+
+.error__message {
+  background: #ff0000;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 6px;
+}
